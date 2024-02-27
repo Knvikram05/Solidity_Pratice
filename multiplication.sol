@@ -9,7 +9,7 @@ contract multipication{
 
     }
     
-    function getResult() public view returns(uint256){
+    function getResult() public view returns(uint256){ 
         return result;
     }
 
