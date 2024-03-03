@@ -13,7 +13,7 @@ function add()public view  returns(int){
 
 }
 
-//Output
+//Output 
 
 //a,b= 5,7
 //result =12
