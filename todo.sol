@@ -17,7 +17,7 @@ contract TodoList{
         tasks[_index].completed = !tasks[_index].completed;
     }
 
-    function getTask(uint256 _index) public view returns(string memory,bool) {   
+    function getTask(uint256 _index) public view returns(string memory,bool) {    
         require(
             _index < tasks.length,"Task Index out og bounds"  );
             Task memory task=tasks[_index];
