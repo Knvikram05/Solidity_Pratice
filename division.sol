@@ -12,7 +12,7 @@ contract Division{
         result= num1 / num2;
     }
 
-    function getResult() public view returns(uint256){
+    function getResult() public view returns(uint256){ 
         return result;
     }
 }
