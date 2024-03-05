@@ -8,7 +8,7 @@ contract Division{
     function div(uint256 num1, uint256 num2)public{  
         require(
             num2!=0,"Division  by zero is not allowed " 
-        );
+        ); 
         result= num1 / num2;
     }
 
