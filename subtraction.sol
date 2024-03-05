@@ -7,7 +7,7 @@ int a=55;
 int b=45;
 
 function sub1() public view returns(int){   
-    int result =a-b; 
+    int result =a-b;
     return result; 
 }
 
