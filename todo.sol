@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MIT
+ // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 contract TodoList{
@@ -18,7 +18,7 @@ contract TodoList{
     }
 
     function getTask(uint256 _index) public view returns(string memory,bool) {    
-        require(
+        require( 
             _index < tasks.length,"Task Index out og bounds"  );
             Task memory task=tasks[_index];
             return (task.content,task.completed);
