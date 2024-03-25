@@ -6,7 +6,7 @@ int a = 50;
 int b = 50; 
 
 function add()public view  returns(int){ 
-    int result = a+b; 
+    int result = a+b;  
      return result ;
 
 }
