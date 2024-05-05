@@ -1,3 +1,1 @@
 # Solidity_Pratice
-
-
